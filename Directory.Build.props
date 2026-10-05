@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Deterministic>true</Deterministic>
+    <DebugType Condition="'$(Configuration)' == 'Release'">None</DebugType>
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+    <PixInstallDir Condition="'$(PixInstallDir)' == ''">$(PIX_INSTALL_DIR)</PixInstallDir>
+  </PropertyGroup>
+
+  <Target Name="ValidatePixInstallDir" BeforeTargets="ResolveReferences"
+          Condition="!Exists('$(PixInstallDir)\Pix.Activities.dll')">
+    <Error Text="PIX Studio dependency not found. Set PIX_INSTALL_DIR or pass -p:PixInstallDir=&quot;C:\path\to\PIX&quot;." />
+  </Target>
+</Project>

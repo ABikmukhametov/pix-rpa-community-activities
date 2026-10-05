@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CpuLoad.png" />
+    <None Remove="Disks.png" />
+    <None Remove="NetworkInfo.png" />
+    <None Remove="ProcessKill.png" />
+    <None Remove="RAM.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="CpuLoad.png" />
+    <EmbeddedResource Include="Disks.png" />
+    <EmbeddedResource Include="NetworkInfo.png" />
+    <EmbeddedResource Include="ProcessKill.png" />
+    <EmbeddedResource Include="RAM.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="10.0.12" />
+    <PackageReference Include="System.Management" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Pix.Activities">
+      <HintPath>$(PixInstallDir)\Pix.Activities.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

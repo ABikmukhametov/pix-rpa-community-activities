@@ -1,0 +1,14 @@
+.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+dll_v2/
+.idea/
+.vscode/
+artifacts/
+release/
+*.pdb
+.dotnet/

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activities.GigaChatCommunity", "Activities.GigaChatCommunity.csproj", "{BDC44D8E-BD9D-44DD-9A23-CF2F76E056E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDC44D8E-BD9D-44DD-9A23-CF2F76E056E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDC44D8E-BD9D-44DD-9A23-CF2F76E056E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDC44D8E-BD9D-44DD-9A23-CF2F76E056E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDC44D8E-BD9D-44DD-9A23-CF2F76E056E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F69E70FA-F2E9-4A5B-8368-1FAD404E2E8E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+[
+  {
+    "name": "OfficeSupplies",
+    "include_patterns": [
+      { "pattern": "канцеляр", "weight": 3 },
+      { "pattern": "бумага", "weight": 2 },
+      { "pattern": "ручк", "weight": 1 }
+    ],
+    "exclude_patterns": [
+      { "pattern": "доставка", "weight": 5 },
+      { "pattern": "возврат", "weight": 5 }
+    ]
+  },
+  {
+    "name": "Software",
+    "include_patterns": [
+      { "pattern": "лицензи", "weight": 3 },
+      { "pattern": "подписк", "weight": 2 }
+    ],
+    "exclude_patterns": [
+      { "pattern": "обучение", "weight": 5 },
+      { "pattern": "консультац", "weight": 5 }
+    ]
+  }
+]

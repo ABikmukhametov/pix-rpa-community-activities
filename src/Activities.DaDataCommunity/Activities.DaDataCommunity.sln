@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Activities.DaDataCommunity", "Activities.DaDataCommunity.csproj", "{2504056A-192A-4CA9-B40D-9C54C1252146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2504056A-192A-4CA9-B40D-9C54C1252146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2504056A-192A-4CA9-B40D-9C54C1252146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2504056A-192A-4CA9-B40D-9C54C1252146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2504056A-192A-4CA9-B40D-9C54C1252146}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {011D3ED5-520B-4B29-9EB1-21CE1B14DFA9}
+	EndGlobalSection
+EndGlobal
